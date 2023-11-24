@@ -1,0 +1,288 @@
+*:focus {
+  outline: 4px dotted #de2e54;
+  outline-offset: 3px;
+}
+*:active{
+  outline: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+/* header bo'limi boshi */
+.header-display {
+padding: 24px;
+background-color: #fff;
+}
+.header-display {
+  display: flex;
+  justify-content: space-between;
+}
+.AnsorMed-logo-text {
+ font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 32.68px;
+color: #222;
+}
+.AnsorMed-logo-text:hover {
+color: #de2e54;
+}
+.AnsorMed-logo-text:hover{
+  opacity: 0.8;
+}.AnsorMed-logo-text:active{
+  color: #de2e54;
+}
+.AnsorMed-logo-text:active{
+  opacity: 0.6;
+}
+
+
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+}
+.header-logo:hover {
+  color: #de2e54;
+}
+.header-logo:hover{
+  opacity: 0.8;
+}
+.header-logo:active{
+  color: #de2e54;
+}
+.header-logo:active{
+  opacity: 0.6;
+}
+.header-logo:focus{
+  outline: 4px dotted #de2e54;
+  outline-offset: 3px;
+}
+.header-list-item:focus{
+  opacity: 0.6;
+}
+div {
+  margin-right: 16px;
+}
+.header-list {
+  list-style: none;
+  display: flex;
+}
+.header-list-item {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-right: 32px;
+  color: #222;
+}
+.header-list-item:hover {
+  color: #de2e54;
+}
+.header-list-item:hover{
+  opacity: 0.8;
+}
+.header-list-item:active {
+  color: rgba(222, 46, 84, 1);
+
+}
+.header-list-item:active{
+opacity: 0.6;
+
+}
+.header-list-item:active{
+  outline: 0;
+}
+.header-list-item:focus{
+  color: #de2e54;
+}
+.header-list-item:focus{
+  outline: 4px dotted #de2e54;
+  outline-offset: 3px;
+}
+.header-list-item:focus{
+  opacity: 0.6;
+}
+
+
+
+.oxirgi {
+  margin: 0;
+
+}
+.button {
+  margin-right: auto;
+  margin-left: auto;
+}
+.button {
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 22.5px;
+letter-spacing: 2px;
+text-transform: uppercase;
+padding: 12px 24px;
+border-radius: 8px;
+border-radius: 2px dotted #de2e54;
+background-color: #de2e54;
+color: #fff;
+}
+.button:hover{
+  background-color:#fff;
+  color: #de2e54;
+  }
+   .button:hover{
+    border: 2px solid #de2e54;
+   }
+  .button:hover {
+    opacity: 0.6;
+  }
+.button:active{
+  background-color: #de2e54;
+  color: #fff;
+}
+.button:active{
+  opacity: 0.6;
+}
+.button:active {
+  outline: 0;
+}
+.button:focus{
+  background-color: #de2e54;
+  color: #fff;
+}
+
+.container {
+width: 100%;
+max-width: 1160px;
+padding-left: 24px;
+padding-right: 24px;
+margin-left: auto;
+margin-right: auto;
+}
+/* header bolimi tugadi */
+/* doktor bo'limi */
+.doktor-bolimi{
+  background-color: rgba(14, 180, 193, 1);
+
+}
+.doktor-container {
+  display: flex;
+  justify-content: space-between;
+}
+.doktor-bolimi-padding {
+  padding-left: 170px;
+  padding-top: 120px;
+}
+
+.doktor-bolimi-main-text {
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 43.2px;
+letter-spacing: 0.5px;
+color: #fff;
+}
+
+.doktor-bolimi-small-text {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.5px;
+  color: #fff;
+}
+.doktor-bolimi-small-text {
+  padding-top: 16px;
+padding-bottom: 36px;
+}
+
+
+.doktor-bolimi-button {
+text-decoration: none;
+
+}
+.doktor-bolimi-link {
+  padding-top: 36px;
+  padding-bottom: 120px;
+}
+.doktor-bolimi-button:hover {
+background-color: #de2e54;
+color: #fff;
+}
+.doktor-bolimi-button:hover{
+opacity: 0.8;
+}
+.doktor-bolimi-button:active{
+  background-color: rgba(222, 46, 84, 0.6);
+}
+/* doktor bolimi oxiri */
+/* xizmtlar-bo'limi */
+.xizmatlar-sozi {
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 43.2px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: rgba(0, 0, 0, 1);
+}
+.xizmatlar-sozi-padding {
+  padding-top: 120px;
+
+}
+.xizmatlar-main-text {
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 28.8px;
+letter-spacing: 1px;
+color: #222;
+
+}
+.xizmatlar-main-text {
+  padding-left: 64px;
+}
+.xizmatlar-main-text {
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+.xizmatlar-small-text{
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 1px;
+color: #222;
+}
+.xizmatlar-small-text{
+  padding-left: 64px;
+}
+.xizmatlar-small-text {
+  width: 600px;
+}
+.xizmatlar-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+.xizmatlar-display{
+  margin-bottom: 80px;
+
+}
+
+.xizmatlar-link {
+  padding-bottom: 120px;
+  padding-left: 626px;
+}
+
+
+
+
